@@ -1,0 +1,29 @@
+{
+  "name": "netlogger",
+  "version": "1.0.0",
+  "description": "Network Logging Library for Node.js",
+  "main": "Logger.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bulentv/netlogger.git"
+  },
+  "keywords": [
+    "Network",
+    "Logging",
+    "nodejs"
+  ],
+  "author": "Bulent Vural <bulentv@gmail.com> (http://www.github.com/bulentv)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bulentv/netlog/issues"
+  },
+  "homepage": "https://github.com/bulentv/netlog#readme",
+  "dependencies": {
+    "dcl": "^1.1.3",
+    "sprintf": "^0.1.5",
+    "stack-trace": "0.0.9"
+  }
+}
