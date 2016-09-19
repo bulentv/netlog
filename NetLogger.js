@@ -114,7 +114,9 @@ module.exports = dcl(null, {
 
     var b = new Buffer(JSON.stringify(o));
     this._server.send(b, 0, b.length,this._cfg.logPort, this._cfg.logHost, function() {
-      callback();
+      if(typeof(callback) == 'function') {
+        callback();
+      }
     });
   }
 });

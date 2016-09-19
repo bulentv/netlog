@@ -1,6 +1,6 @@
 {
   "name": "netlogger",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Network Logging Library for Node.js",
   "main": "Logger.js",
   "scripts": {
